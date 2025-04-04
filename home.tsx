@@ -8,6 +8,7 @@ import {
   TwitterIcon,
   LinkedinIcon,
   DiscordIcon,
+  GlobeIcon,
 } from "@/components/font-awesome-icons";
 import { ThemeToggle } from "@/components/theme-toggle";
 
@@ -87,21 +88,21 @@ export default function Home() {
 
             <div className="w-full space-y-2">
               <Link
+                href="https://trustbridge.vercel.app/"
+                className="flex items-center gap-3 p-3 sm:p-4 border border-gray-200 dark:border-zinc-800 rounded-md hover:bg-gray-50 dark:hover:bg-zinc-800 transition-colors"
+              >
+                <GlobeIcon className="text-gray-700 dark:text-gray-300 w-4 sm:w-5 h-4 sm:h-5" />
+                <span className="font-medium text-gray-900 dark:text-gray-100 text-sm sm:text-base">
+                  Website
+                </span>
+              </Link>
+              <Link
                 href="#"
                 className="flex items-center gap-3 p-3 sm:p-4 border border-gray-200 dark:border-zinc-800 rounded-md hover:bg-gray-50 dark:hover:bg-zinc-800 transition-colors"
               >
                 <FileTextIcon className="text-gray-700 dark:text-gray-300 w-4 sm:w-5 h-4 sm:h-5" />
                 <span className="font-medium text-gray-900 dark:text-gray-100 text-sm sm:text-base">
                   Documentation
-                </span>
-              </Link>
-              <Link
-                href="https://trustbridge.vercel.app/"
-                className="flex items-center gap-3 p-3 sm:p-4 border border-gray-200 dark:border-zinc-800 rounded-md hover:bg-gray-50 dark:hover:bg-zinc-800 transition-colors"
-              >
-                <CodeIcon className="text-gray-700 dark:text-gray-300 w-4 sm:w-5 h-4 sm:h-5" />
-                <span className="font-medium text-gray-900 dark:text-gray-100 text-sm sm:text-base">
-                  Website
                 </span>
               </Link>
               <Link
@@ -195,6 +196,15 @@ export default function Home() {
                 Resources
               </h3>
               <ul className="space-y-1 md:space-y-2">
+                <li>
+                  <Link
+                    href="https://trustbridge.vercel.app/"
+                    className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 text-xs sm:text-sm flex items-center gap-2"
+                  >
+                    <GlobeIcon className="w-3 sm:w-4 h-3 sm:h-4" />
+                    Website
+                  </Link>
+                </li>
                 <li>
                   <Link
                     href="#"
