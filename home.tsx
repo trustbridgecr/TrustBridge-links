@@ -34,7 +34,6 @@ export default function Home() {
           </Link>
 
           <div className="flex items-center gap-2 md:gap-4">
-            <ThemeToggle />
             <div className="hidden md:flex items-center gap-4">
               <Link
                 href="https://github.com/byteworkscr/dApp-TrustBridge"
@@ -73,18 +72,15 @@ export default function Home() {
       <main className="flex-grow flex items-center justify-center py-6 md:py-12 px-4">
         <div className="bg-white dark:bg-zinc-900 rounded-lg shadow-md w-full max-w-[90%] sm:max-w-md p-4 sm:p-6 md:p-8 transition-colors">
           <div className="flex flex-col items-center">
-            <div className="w-12 h-12 sm:w-16 sm:h-16 mb-3 md:mb-4">
+            <div className="w-full max-w-[400px] mt-6 mb-6">
               <Image
-                src="/images/trustbridge-logo.png"
+                src="/images/banner.png"
                 alt="TrustBridge Logo"
-                width={64}
-                height={64}
-                className="w-full h-full"
+                width={800}
+                height={200}
+                className="w-full h-auto object-contain"
               />
             </div>
-            <h1 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4 md:mb-6">
-              TrustBridge
-            </h1>
 
             <div className="w-full space-y-2">
               <Link
