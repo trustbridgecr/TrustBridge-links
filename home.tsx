@@ -102,7 +102,7 @@ export default function Home() {
                 </span>
               </Link>
               <Link
-                href="https://dapp-trustbridge-three.vercel.app/"
+                href="https://testnet.trustbridge.dev"
                 className="flex items-center gap-3 p-3 sm:p-4 border border-gray-200 dark:border-zinc-800 rounded-md hover:bg-gray-50 dark:hover:bg-zinc-800 transition-colors"
               >
                 <CodeIcon className="text-gray-700 dark:text-gray-300 w-4 sm:w-5 h-4 sm:h-5" />
