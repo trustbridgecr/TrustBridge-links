@@ -36,7 +36,7 @@ export default function Home() {
           <div className="flex items-center gap-2 md:gap-4">
             <div className="hidden md:flex items-center gap-4">
               <Link
-                href="https://github.com/trustbridgecr/dApp-TrustBridge"
+                href="https://github.com/trustbridgecr"
                 className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100"
               >
                 <GithubIcon className="w-5 h-5" />
@@ -84,7 +84,7 @@ export default function Home() {
 
             <div className="w-full space-y-2">
               <Link
-                href="https://trustbridge.vercel.app/"
+                href="https://trustbridge.dev"
                 className="flex items-center gap-3 p-3 sm:p-4 border border-gray-200 dark:border-zinc-800 rounded-md hover:bg-gray-50 dark:hover:bg-zinc-800 transition-colors"
               >
                 <GlobeIcon className="text-gray-700 dark:text-gray-300 w-4 sm:w-5 h-4 sm:h-5" />
@@ -107,12 +107,12 @@ export default function Home() {
               >
                 <CodeIcon className="text-gray-700 dark:text-gray-300 w-4 sm:w-5 h-4 sm:h-5" />
                 <span className="font-medium text-gray-900 dark:text-gray-100 text-sm sm:text-base">
-                  dApp
+                  Wallet
                 </span>
               </Link>
 
               <Link
-                href="https://github.com/trustbridgecr/dApp-TrustBridge"
+                href="https://portfolio.trustbridge.dev"
                 className="flex items-center gap-3 p-3 sm:p-4 border border-gray-200 dark:border-zinc-800 rounded-md hover:bg-gray-50 dark:hover:bg-zinc-800 transition-colors"
               >
                 <GithubIcon className="text-gray-700 dark:text-gray-300 w-4 sm:w-5 h-4 sm:h-5" />
@@ -158,7 +158,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
             <div className="md:col-span-1">
               <Link
-                href="https://trustbridge.vercel.app/"
+                href="https://trustbridge.dev"
                 className="flex items-center gap-2 mb-3 md:mb-4"
               >
                 <div className="w-5 h-5 md:w-6 md:h-6">
@@ -186,7 +186,7 @@ export default function Home() {
               <ul className="space-y-1 md:space-y-2">
                 <li>
                   <Link
-                    href="https://trustbridge.vercel.app/"
+                    href="https://trustbridge.dev"
                     className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 text-xs sm:text-sm flex items-center gap-2"
                   >
                     <GlobeIcon className="w-3 sm:w-4 h-3 sm:h-4" />
